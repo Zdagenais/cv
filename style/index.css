@@ -1,4 +1,4 @@
-﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -52,7 +52,7 @@ table {
 /* Default*/
 body {
 	background: #3148bd;
-	color: #293f50;
+	color: #211C2C;
 	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
@@ -111,7 +111,7 @@ body {
 }
 .col-box {
 	padding-left: 15px;
-	border-left: 5px solid #24095e;
+	border-left: 5px solid #736E8A;
 }
 	
 
@@ -136,18 +136,18 @@ body {
 	}
 
 .row {
-	background: #fff;
+	background: #F1ECEA;
 	padding: 44px 0 44px 0;
 	text-align: center;
 	}
 
 .row-alt {
-	background: #24095e;
-	background: -webkit-linear-gradient(to right, #24095e, #62d3fc);
-	background: -moz-linear-gradient(to right, #24095e, #62d3fc);
+	background: #6EB1D9;
+	background: -webkit-linear-gradient(to right, #6EB1D9, #F1ECEA);
+	background: -moz-linear-gradient(to right, #6EB1D9, #F1ECEA);
 	padding: 44px 0 22px 0;
-	border-top: 15px solid #fff;
-	border-bottom: 15px solid #fff;
+	border-top: 15px solid #F1ECEA;
+	border-bottom: 15px solid #F1ECEA;
 	}
 
 /* Typography */
@@ -156,7 +156,7 @@ h1, h3, h4, h5, p {
 	margin-bottom: 22px;
 	}
 h1, h3, h4, {
-	color: #648880;
+	color: #211C2C;
 	}
 h1 {
 	font-size: 36px;
@@ -173,7 +173,7 @@ h4 {
 	font-size: 18px;
 	}
 h5 {
-	color: #a9b2b9;
+	color: #211C2C;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -190,7 +190,7 @@ cite, em {
 .lead {
 	text-align: center;
 	padding: 10px 30px 0 30px;
-	color: #fff; 
+	color: #211C2C; 
 	}
 .lead p {
 	font-size: 21px;
@@ -199,18 +199,22 @@ cite, em {
 
 /*Links*/
 a:hover {
-	color: #a9b2b9;
+	color: #6EB1D9;
 	}
 a {
-	color: #24095e;
+	color: #211C2C;
 	text-decoration: none;
 	}
 p a {
-	border-bottom: 1px solid #24095e;
+	border-bottom: 1px solid #211C2C;
 	} 
+.primary-header a,
+.primary-footer a {
+	color: #F1ECEA;
+	}
 .primary-header a:hover,
 .primary-footer a:hover {
-	color: #fff;
+	color: #211C2C;
 	}
 
 /*Buttons*/
@@ -218,34 +222,34 @@ p a {
 	border-radius: 5px;
 	display: inline-block;
 	margin: 0;
-	color: #fff;
+	color: #F1ECEA;
 	cursor: pointer;
 	font-weight: 400;
 	letter-spacing: .5px;
 	text-transform: uppercase;
 	}
 .btn-alt {
-	border: 1px solid #24095e;
+	border: 1px solid #736E8A;
 	padding: 5px 5px;
 	margin: 2px;
-	color: #fff;
-	background: #24095e;
+	color: #211C2C;
+	background: #6EB1D9;
 	min-width: 80%;
 	min-height: 300px;
 	}
 .btn-alt:hover {
-	background: #fff;
-	color: #000;
+	background: #736E8A;
+	color: #F1ECEA;
 	}
 .btn-big {
-	border: 1px solid #000000;
+	border: 1px solid #211C2C;
 	padding: 15px 20px;
 	}
 
 /*Header*/
 .logo {
 	float: left;
-	border-top: 4px solid #24095e;
+	border-top: 4px solid #6EB1D9;
 	padding: 10px 20% 40px 0;
 	font-size: 48px;
 	line-height: 40px;
@@ -254,15 +258,15 @@ p a {
 	text-transform: uppercase
 	}
 .logo a {
-		color: #fff;
+		color: #F1ECEA;
 }
 .logo a:hover {
-		color: #24095e;
+		color: #211C2C;
 }
 .tagline {
 	margin: 33px 0 22px 0;
 	text-align: right;
-	color: #fff;
+	color: #6EB1D9;
 	}
 .primary-nav {
 	font-size: 14px;
@@ -275,7 +279,7 @@ p a {
 .primary-footer {
 	padding-bottom: 44px;
 	padding-top: 44px;
-	color: #24095e;
+	color: #6EB1D9;
 	font-size: 14px;
 	}
 .primary-footer small {
@@ -303,10 +307,10 @@ p a {
 /*Reasons page*/
 .reason {
 	margin-bottom: 44px;
-	color: #3148bd;
+	color: #6EB1D9;
 	}
 .reason h1 {
-	color: #24095e;
+	color: #211C2C;
 }
 .reason ul {
 	list-style-type: circle;
@@ -327,17 +331,17 @@ p a {
 
 /*Story page*/
 .event {
-	background-color: #fff;
+	background-color: #F1ECEA;
 	padding: 22px 10px 22px 20px;
-	color: #3148bd;
-	border-bottom: 10px solid #62d3fc;
+	color: #211C2C;
+	border-bottom: 10px solid #736E8A;
 }
 .event h2 {
 	font-weight: bold;
-	color: #24095e;
+	color: #211C2C;
 }
 .event h4 {
-	color: #24095e;
+	color: #211C2C;
 }
 .event img {
 	width: 100%;
@@ -345,22 +349,7 @@ p a {
 	margin: 15px;
 }
 .last {
-	border-bottom: 0px solid #fff;
-}
-
-/*Picture page*/
-
-.pic img, video {
-	width: 100%;
-	border: 5px solid #fff;	
-}
-
-.pic {
-	margin: 8px;
-}
-
-.pic h2, h3 {
-	text-indent: 12px;
+	border-bottom: 0px solid #F1ECEA;
 }
 
 /*Expérience*/
@@ -371,6 +360,10 @@ p a {
 
 .exp-imp {
 	text-align: center;
+}
+
+.exp-ban {
+	background:#6EB1D9;
 }
 
 /*Éducation*/
@@ -385,18 +378,20 @@ p a {
 .cont h2 {
 	text-align: right;
 	padding-right: 2%;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 250%;
 }
 .cont h4 {
 	text-align: right;
 	padding-right: 2%;
+	font-size:150%;
 }
 .cont img {
 	padding-left: 5%;
 }
 /*Home*/
 .hero {
-	color: #fff;
+	color: #F1ECEA;
 	padding: 22px 80px 66px 80px;
 	line-height: 44px;
 	text-align: center;
@@ -418,7 +413,7 @@ p a {
 	margin:0 0.5%;
 }
 .teaser a:hover h3 {
-	color: #62d3fc;
+	color: #6EB1D9;
 	}
 
 .teaser img {
